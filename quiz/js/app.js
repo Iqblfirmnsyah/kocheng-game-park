@@ -27,6 +27,30 @@ function loadQuestion() {
 }
 
 const quizData = {
+    "Puasa": {
+        "easy": [
+    { "question": "Puasa di bulan Ramadhan hukumnya adalah?", "options": ["Sunnah", "Wajib", "Mubah", "Haram"], "correct": "Wajib" },
+    { "question": "Makanan apa yang sering disarankan untuk berbuka puasa?", "options": ["Kurma", "Nasi Padang", "Bakso", "Burger"], "correct": "Kurma" },
+    { "question": "Ibadah shalat malam yang dilakukan khusus di bulan Ramadhan disebut?", "options": ["Shalat Tahajud", "Shalat Dhuha", "Shalat Tarawih", "Shalat Jumat"], "correct": "Shalat Tarawih" },
+    { "question": "Orang yang tidak kuat menahan lapar dan haus saat puasa disebut?", "options": ["Pahlawan", "Pejuang Subuh", "Iman Lemah", "Laper Boy"], "correct": "Laper Boy" },
+    { "question": "Apa yang terjadi jika kita sengaja makan di siang hari saat puasa?", "options": ["Dapat hadiah", "Harus bayar utang puasa", "Dapat bonus pahala", "Langsung batal, dong!"], "correct": "Langsung batal, dong!" },
+    { "question": "Waktu yang paling ditunggu saat puasa adalah?", "options": ["Waktu Subuh", "Waktu Sahur", "Waktu Berbuka", "Waktu Ujian"], "correct": "Waktu Berbuka" },
+    { "question": "Apa bunyi suara sirine yang menandakan waktu berbuka?", "options": ["Tiiiiiiiiit!", "Dug Dug Dug!", "Wee Woo Wee Woo!", "Halo guys!"], "correct": "Dug Dug Dug!" },
+    { "question": "Apa yang sebaiknya dihindari saat puasa?", "options": ["Ngaji", "Marah-marah", "Makan sahur", "Berbuka"], "correct": "Marah-marah" },
+    { "question": "Di bulan Ramadhan, setan-setan di mana?", "options": ["Liburan ke Bali", "Dikurung", "Lagi demo", "Buka usaha baru"], "correct": "Dikurung" },
+    { "question": "Mengapa sahur dianjurkan meskipun tidak wajib?", "options": ["Biar kuat puasanya", "Biar ngantuk pas kerja", "Biar nggak perlu masak siang", "Biar bisa pamer di story"], "correct": "Biar kuat puasanya" },
+    { "question": "Jika kamu mendengar azan Maghrib, apa yang harus dilakukan?", "options": ["Tidur", "Ngopi dulu", "Berbuka", "Cek notifikasi HP"], "correct": "Berbuka" },
+    { "question": "Setelah berbuka, biasanya perut terasa?", "options": ["Kosong", "Bahagia", "Penuh tapi masih makan lagi", "Lapar lagi"], "correct": "Penuh tapi masih makan lagi" },
+    { "question": "Saat tarawih, posisi favorit di masjid adalah?", "options": ["Shaf depan", "Shaf tengah", "Dekat kipas angin", "Dekat pintu biar bisa kabur"], "correct": "Dekat kipas angin" },
+    { "question": "Di bulan Ramadhan, jam tidur seseorang biasanya?", "options": ["Bertambah", "Berkurang", "Tetap sama", "Tergantung drama Korea"], "correct": "Berkurang" },
+    { "question": "Apa alasan paling umum telat bangun sahur?", "options": ["Alarm nggak bunyi", "Lupa pasang alarm", "Tertidur habis tarawih", "Habis mimpi makan kenyang"], "correct": "Tertidur habis tarawih" },
+    { "question": "Apa yang sering dilakukan setelah buka puasa?", "options": ["Langsung tarawih", "Rebahan sambil scroll HP", "Lari keliling rumah", "Makan ronde kedua"], "correct": "Rebahan sambil scroll HP" },
+    { "question": "Ketika ke masjid untuk tarawih, tapi malah ngobrol di luar, itu disebut?", "options": ["Ibadah", "Silaturahmi", "Tadarus", "Reuni dadakan"], "correct": "Reuni dadakan" },
+    { "question": "Apa yang sering terjadi saat tarawih rakaat ke-15?", "options": ["Semakin semangat", "Semakin fokus", "Mulai goyang-goyang", "Lihat jam terus"], "correct": "Lihat jam terus" },
+    { "question": "Apa yang paling bikin ngiler pas puasa?", "options": ["Iklan sirup", "Tidur siang", "Nonton mukbang", "Semua jawaban benar"], "correct": "Semua jawaban benar" },
+    { "question": "Kenapa di bulan Ramadhan, nasi goreng lebih enak?", "options": ["Bumbu lebih spesial", "Dimakan saat sahur", "Dibuat dengan cinta", "Karena lapar banget"], "correct": "Karena lapar banget" }
+]
+    },
     "Sports": {
         "easy": [
             { "question": "Berapa jumlah pemain dalam satu tim sepak bola?", "options": ["10", "11", "12", "13"], "correct": "11" },
@@ -90,8 +114,51 @@ const quizData = {
             { "question": "Siapa pemain tenis yang memegang rekor gelar Grand Slam terbanyak di kategori tunggal putra?", "options": ["Rafael Nadal", "Roger Federer", "Novak Djokovic", "Pete Sampras"], "correct": "Novak Djokovic" },
             { "question": "Di cabang olahraga apa Michael Jordan terkenal?", "options": ["Baseball", "American Football", "Basketball", "Hockey"], "correct": "Basketball" },
             { "question": "Siapa perenang wanita dengan jumlah medali emas terbanyak dalam sejarah Olimpiade?", "options": ["Katie Ledecky", "Missy Franklin", "Jenny Thompson", "Kristin Otto"], "correct": "Kristin Otto" }
-        ]
+        ],
+        "medium": [
+    { "question": "Salah satu nama lain dari bulan Ramadhan adalah?", "options": ["Bulan Madu", "Bulan Syawal", "Bulan Puasa", "Bulan Penuh Berkah"], "correct": "Bulan Penuh Berkah" },
+    { "question": "Apa yang sering terjadi saat pertama kali bangun sahur?", "options": ["Langsung makan", "Semangat olahraga", "Mikir dulu ini mimpi atau nyata", "Kaget liat jam"], "correct": "Mikir dulu ini mimpi atau nyata" },
+    { "question": "Apa yang biasanya dilakukan saat adzan Subuh berkumandang setelah sahur?", "options": ["Langsung sholat", "Cek HP dulu", "Tidur lagi", "Makan ronde terakhir"], "correct": "Tidur lagi" },
+    { "question": "Apa yang sering dikatakan orang saat menunggu berbuka?", "options": ["Sabar ya!", "Dikit lagi, dikit lagi!", "Kok lama banget sih!", "Coba fast forward aja"], "correct": "Dikit lagi, dikit lagi!" },
+    { "question": "Siapa yang sering 'hilang' saat azan Maghrib berkumandang?", "options": ["Ketua panitia masjid", "Tukang adzan", "Orang yang tadi ngajak bukber", "Siapa aja yang keburu makan"], "correct": "Siapa aja yang keburu makan" },
+    { "question": "Apa yang terjadi kalau lupa niat puasa sebelum Subuh?", "options": ["Puasanya tetap sah", "Harus sahur dua kali", "Langsung batal", "Dapat diskon pahala"], "correct": "Puasanya tetap sah" },
+    { "question": "Kenapa banyak orang tiba-tiba rajin ibadah di bulan Ramadhan?", "options": ["Lagi promo pahala", "Biar dapet THR", "Takut ditanya keluarga", "Karena Ramadhan itu spesial"], "correct": "Lagi promo pahala" },
+    { "question": "Apa alasan klasik buat nggak puasa?", "options": ["Lagi sakit", "Lagi traveling", "Lagi mimpi makan", "Gak sengaja lupa terus"], "correct": "Gak sengaja lupa terus" },
+    { "question": "Apa yang biasanya terjadi di masjid saat malam ganjil 10 hari terakhir Ramadhan?", "options": ["Shalat makin semangat", "Tarawih makin panjang", "Itikaf makin rame", "Banyak yang bawa bantal"], "correct": "Banyak yang bawa bantal" },
+    { "question": "Momen paling mendebarkan saat lebaran adalah?", "options": ["Dapat THR", "Ditanya kapan nikah", "Ketemu keluarga besar", "Buka amplop THR"], "correct": "Ditanya kapan nikah" },
+    { "question": "Apa yang sering terjadi saat shalat Tarawih berjamaah?", "options": ["Imam baca surat pendek", "Shaf selalu penuh", "Orang-orang pilih barisan belakang", "Ada yang tiba-tiba hilang di rakaat terakhir"], "correct": "Ada yang tiba-tiba hilang di rakaat terakhir" },
+    { "question": "Apa strategi bertahan saat lapar di siang hari?", "options": ["Banyak minum", "Tidur siang", "Makan diam-diam", "Nonton mukbang"], "correct": "Tidur siang" },
+    { "question": "Saat buka puasa bersama, siapa yang paling sibuk?", "options": ["Yang ambil makanan duluan", "Yang pesen makanan", "Yang ngajak bukber", "Yang update story"], "correct": "Yang update story" },
+    { "question": "Apa alasan paling sering buat nggak ikut tarawih?", "options": ["Capek", "Sakit perut", "Ada tugas", "Ada acara Netflix"], "correct": "Ada acara Netflix" },
+    { "question": "Apa yang sering terjadi saat khutbah shalat Idul Fitri?", "options": ["Semua fokus", "Banyak yang ngantuk", "Semua mencatat isi khutbah", "Orang-orang siap-siap pulang"], "correct": "Banyak yang ngantuk" },
+    { "question": "Kenapa saat lebaran perut selalu penuh?", "options": ["Karena makan sahur", "Karena banyak undangan makan", "Karena makanan gak ada habisnya", "Karena nggak bisa nolak opor"], "correct": "Karena nggak bisa nolak opor" },
+    { "question": "Apa yang sering terjadi saat mudik?", "options": ["Jalanan lancar", "Banyak diskon tiket", "Ketemu teman lama", "Macet panjang"], "correct": "Macet panjang" },
+    { "question": "Apa yang paling dinantikan saat hari raya Idul Fitri?", "options": ["Shalat Ied", "Makan ketupat", "Dapat THR", "Silaturahmi"], "correct": "Dapat THR" },
+    { "question": "Kenapa makanan di rumah nenek saat Lebaran selalu lebih enak?", "options": ["Bumbu rahasia", "Dimasak dengan cinta", "Karena gratis", "Semua jawaban benar"], "correct": "Semua jawaban benar" }
+],
+        "hard": [
+    { "question": "Malam Lailatul Qadar lebih baik dari?", "options": ["100 bulan", "1000 bulan", "100 hari", "1000 hari"], "correct": "1000 bulan" },
+    { "question": "Apa yang harus dilakukan jika ragu jumlah rakaat saat tarawih?", "options": ["Ikut imam", "Tanya sebelah", "Shalat ulang dari awal", "Pura-pura yakin"], "correct": "Ikut imam" },
+    { "question": "Apa yang dilakukan Rasulullah di 10 malam terakhir Ramadhan?", "options": ["Tidur lebih banyak", "Beribadah lebih giat", "Buka usaha takjil", "Menulis status motivasi"], "correct": "Beribadah lebih giat" },
+    { "question": "Apa yang sering terjadi saat sahur bersama teman?", "options": ["Semuanya bangun", "Ada yang kesiangan", "Makanan habis duluan", "Ada yang cuma datang buat ngobrol"], "correct": "Ada yang kesiangan" },
+    { "question": "Apa tanda seseorang mendapatkan Lailatul Qadar?", "options": ["Mimpi indah", "Udara sejuk dan tenang", "Hujan deras", "Alarm subuh bunyi sendiri"], "correct": "Udara sejuk dan tenang" },
+    { "question": "Apa alasan orang malas sahur?", "options": ["Lagi diet", "Keburu kenyang buka tadi", "Lupa pasang alarm", "Karena nggak ada lauk favorit"], "correct": "Lupa pasang alarm" },
+    { "question": "Apa yang sering dilakukan sebelum buka puasa?", "options": ["Tidur siang", "Cek HP terus", "Masak banyak makanan", "Ngitung detik jam"], "correct": "Ngitung detik jam" },
+    { "question": "Kenapa setan dikurung di bulan Ramadhan?", "options": ["Biar gak godain manusia", "Biar istirahat", "Biar ikut puasa", "Biar manusia fokus ibadah"], "correct": "Biar gak godain manusia" },
+    { "question": "Di malam terakhir Ramadhan, perasaan yang sering muncul adalah?", "options": ["Senang", "Sedih", "Bingung", "Lapar lagi"], "correct": "Sedih" },
+    { "question": "Apa hukuman bagi yang makan diam-diam saat puasa?", "options": ["Disuruh bayar puasa", "Dihapus dari grup keluarga", "Dimarahin emak", "Dapat THR lebih sedikit"], "correct": "Disuruh bayar puasa" },
+    { "question": "Apa yang sering terjadi saat shalat Idul Fitri?", "options": ["Semua khusyuk", "Ada yang salah takbir", "Orang telat datang", "Ada yang sibuk foto-foto"], "correct": "Ada yang salah takbir" },
+    { "question": "Apa yang bikin orang betah lama-lama di masjid saat Ramadhan?", "options": ["AC dingin", "Banyak makanan gratis", "Biar dapat pahala", "Ngumpul sama teman"], "correct": "AC dingin" },
+    { "question": "Kenapa orang sering update story makanan saat buka puasa?", "options": ["Biar ngilerin teman", "Biar di-like banyak orang", "Biar berbagi kebahagiaan", "Biar diundang bukber"], "correct": "Biar berbagi kebahagiaan" },
+    { "question": "Apa yang sering terjadi kalau kebanyakan makan saat berbuka?", "options": ["Langsung tarawih", "Lanjut makan lagi", "Kenyang tapi nyesel", "Ngantuk berat"], "correct": "Ngantuk berat" },
+    { "question": "Saat lebaran, siapa yang paling ditunggu-tunggu?", "options": ["Paman yang bagi THR", "Tante yang jago masak", "Sepupu yang jarang ketemu", "Tetangga yang suka bagi kue"], "correct": "Paman yang bagi THR" },
+    { "question": "Apa kebiasaan orang setelah lebaran?", "options": ["Diet", "Cari THR tambahan", "Masih makan opor", "Pergi liburan"], "correct": "Masih makan opor" },
+    { "question": "Apa yang paling sulit ditolak saat lebaran?", "options": ["Kue nastar", "Opor ayam", "Ketupat", "Semua benar"], "correct": "Semua benar" },
+    { "question": "Apa yang terjadi jika makan kue kering terlalu banyak?", "options": ["Dapat pahala", "Terlalu manis", "Seret tenggorokan", "Dimarahin ibu"], "correct": "Seret tenggorokan" },
+    { "question": "Kenapa di akhir Ramadhan, semua orang mendadak sibuk?", "options": ["Beli baju baru", "Mikir bayar zakat", "Siapin mudik", "Semua benar"], "correct": "Semua benar" }
+]
     },
+    
     "General Knowledge": {
         "easy": [
             { "question": "Apa ibu kota Indonesia?", "options": ["Jakarta", "Surabaya", "Bandung", "Medan"], "correct": "Jakarta" },
