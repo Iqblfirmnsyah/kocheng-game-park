@@ -95,7 +95,7 @@ const quizData = {
     "General Knowledge": {
         "easy": [
             { "question": "Apa ibu kota Indonesia?", "options": ["Jakarta", "Surabaya", "Bandung", "Medan"], "correct": "Jakarta" },
-            { "question": "Siapa orang tercantik di dunia?", "options": ["Ages", "ages", "ages", "ages"], "correct": "Ages" },
+            { "question": "Siapa yang suka jual pulau?", "options": ["Megachan", "Megaati", "Dani", "Meganteng"], "correct": "Dani" },
             { "question": "Apa warna bendera Indonesia?", "options": ["Merah dan putih", "Biru dan putih", "Merah dan kuning", "Hijau dan putih"], "correct": "Merah dan putih" },
             { "question": "Apa mata uang resmi Indonesia?", "options": ["Ringgit", "Baht", "Rupiah", "Dollar"], "correct": "Rupiah" },
             { "question": "Siapa presiden pertama Indonesia?", "options": ["Joko Widodo", "Soekarno", "Suharto", "Habibie"], "correct": "Soekarno" },
